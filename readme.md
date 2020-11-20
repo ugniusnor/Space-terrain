@@ -4,8 +4,6 @@
 Thanks for checking my Space Terrains game.
 
 
-Thanks for checking out this front-end coding challenge.
-
 ## About
 This was my first game  with moving elements, ever made! After watching a few different tutorials on making browser game, I decided to make my take on Space Invadors meets Flappy Bird!
 
