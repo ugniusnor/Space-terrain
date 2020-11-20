@@ -22,6 +22,12 @@ This was my first game  with moving elements, ever made! After watching a few di
 <li> Still working on this, but the start page should show the highest score (saved in local memory)
 </ul>
 
+## In the future
+
+<li> I'd love to add some kind of shooting mechanism 
+<li> Some kind of buff system can be created
+<li> Making design resposinve and usable on mobile?
+
 ## Game can be seen at:
 
 <a> https://ugniusnor.github.io/space-terrains/
