@@ -16,7 +16,8 @@ this.move();
     create () {
         const DOM=document.querySelector("body")
         const HTML=
-        `<div class="play-area">
+        `
+        <div class="play-area">
         <div class="score-table"> </div>;
          <div class="${this.obj}"> </div>
          </div>
@@ -82,7 +83,15 @@ this.move();
             window.clearInterval(interval)
             isTwoClicked=0;
         })
+//mobile controls
 
+window.addEventListener("touchmove",(e)=> {
+    let moveShipX = e.targetTouches[0].screenX;
+    let moveShipY = e.targetTouches[0].clientY;
+    myObj.style.left=moveShipX +"px";
+    myObj.style.top=moveShipY- myObj.clientHeight + "px";
+    
+})
 
         
     }

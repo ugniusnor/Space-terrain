@@ -50,7 +50,6 @@ let newScore=count;
 let newName = localStorage.getItem("tempName");
 let newDate=localStorage.getItem("tempDate")
 
-console.log(windowHeight);
        for (let i=0;i<currentTerrains.length; i++) {
              let current = currentTerrains[i];
              let iTerrain=document.getElementById("terrain"+current);
