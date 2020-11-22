@@ -15,7 +15,6 @@ body {
 
 .play-area, .startPage{
     width: 90%;
-    height: 600px;
     background-image: url(../images/bg-image.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -59,6 +58,7 @@ body {
 @media ( max-width:500px) {
     .play-area,.startPage {
         width: 100%;
+        height: 95vh;
     }
     .myObj {
        top: 75%;
