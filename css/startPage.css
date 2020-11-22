@@ -4,6 +4,7 @@
     align-items: center;
     justify-items: center;
     position: relative;
+    height: 100vh;
     
 }
 .start-header {
@@ -16,6 +17,7 @@
     width: 80%;
     border-radius: 50px;
     margin-top: 50px;
+    text-align: center;
 }
 
 .start-game {
@@ -52,7 +54,7 @@ font-size: 20px;
 .start-game button {
     width: 200px;
     height: 40px;
-    margin: 50px 0;
+    margin: 30px 0;
     border-radius: 50px;
     color: white;
     font-weight: bold;
@@ -63,7 +65,7 @@ font-size: 20px;
 
 .high-scores {
     width: 90%;
-    height: 150px;
+    height: 100px;
     border: 1px solid white;
     display: flex;
     align-items: center;

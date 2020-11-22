@@ -12,6 +12,7 @@ body {
     align-items: center;
    overflow: hidden;
 }
+
 .play-area, .startPage{
     width: 90%;
     height: 600px;
@@ -20,6 +21,7 @@ body {
     background-size: cover;
     position: relative;
     overflow: hidden;
+    height: 100vh;
 }
 .score-table {
     width: 80px;
@@ -39,8 +41,8 @@ body {
     background-repeat: no-repeat;
     background-size:cover ;
     position: relative;
-    left: 390px;
-    top: 500px;
+   top: 90%;
+   right: -40%;
     border-radius: 50%;
 }
     
@@ -54,3 +56,12 @@ body {
     z-index: 1;
 }
 
+@media ( max-width:500px) {
+    .play-area,.startPage {
+        width: 100%;
+    }
+    .myObj {
+        width: 50px;
+        height: 55px;
+    }
+}

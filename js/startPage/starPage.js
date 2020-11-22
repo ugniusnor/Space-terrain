@@ -29,10 +29,10 @@ function startPage () {
  
      gameEngine();
     localStorage.setItem("tempName",nameInput)
-    localStorage.setItem("name"," ")
+    
     let d=Date.now();
     localStorage.setItem("tempDate",d)
-    localStorage.setItem("date",d)
+    localStorage.setItem("date")
 
   })
   

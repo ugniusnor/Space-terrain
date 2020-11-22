@@ -9,7 +9,7 @@ class Terrain {
     }
 
 create () {
-  
+  let windowHeight=document.querySelector(".play-area").clientHeight;
   const score=document.querySelector(".score-table");
     let count=0;
     let terrainLastTop=0;
@@ -49,12 +49,14 @@ let oldDate=localStorage.getItem("date");
 let newScore=count;
 let newName = localStorage.getItem("tempName");
 let newDate=localStorage.getItem("tempDate")
+
+console.log(windowHeight);
        for (let i=0;i<currentTerrains.length; i++) {
              let current = currentTerrains[i];
              let iTerrain=document.getElementById("terrain"+current);
              let iTerrainTop = parseFloat(window.getComputedStyle(iTerrain).getPropertyValue("top"));
              iTerrain.style.top=iTerrainTop + terrainSpeed +"px"
-            if (iTerrainTop >= 580) {
+            if (iTerrainTop >= windowHeight+50) {
               currentTerrains.shift();
               iTerrain.remove();
             }

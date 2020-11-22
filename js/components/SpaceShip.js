@@ -1,8 +1,8 @@
 class Spaceship {
     
     constructor () {
-        this.width=60,
-        this.height=60,
+        this.width=80,
+        this.height=70,
         this.obj="myObj",
         this.selector='document.querySelector(".myObj")',
        this.plane="/pnae.png"
