@@ -28,4 +28,4 @@ This was my first game  with moving elements, ever made! After watching a few di
 
 ## Game can be seen at:
 
-<a> https://ugniusnor.github.io/space-terrains/
+<a> https://ugniusnor.github.io/Space-terrain
