@@ -86,6 +86,7 @@ this.move();
 //mobile controls
 
 window.addEventListener("touchmove",(e)=> {
+   e.preventDefault();
     let moveShipX = e.targetTouches[0].screenX;
     let moveShipY = e.targetTouches[0].clientY;
     myObj.style.left=moveShipX +"px";
