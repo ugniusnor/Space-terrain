@@ -87,12 +87,13 @@ this.move();
 
 window.addEventListener("touchmove",(e)=> {
    e.preventDefault();
+   e.stopPropagation();
     let moveShipX = e.targetTouches[0].screenX;
     let moveShipY = e.targetTouches[0].clientY;
     myObj.style.left=moveShipX +"px";
     myObj.style.top=moveShipY- myObj.clientHeight + "px";
     
-},false)
+})
 
         
     }
