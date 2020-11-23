@@ -92,7 +92,7 @@ window.addEventListener("touchmove",(e)=> {
     myObj.style.left=moveShipX +"px";
     myObj.style.top=moveShipY- myObj.clientHeight + "px";
     
-})
+},false)
 
         
     }
